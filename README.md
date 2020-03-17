@@ -1,10 +1,10 @@
 
 # Energy Efficient Ethernet with Byte Based Coalescing - Implementation of ns-3 Network Device
 
-This repository contains implementation of ns3 net device which supports Energy Efficient Ethernet with coalescing. The implemlementation is developed in ns-3.30.1.  Installation procedure is the following:
+This repository contains implementation of ns3 net device which supports Energy Efficient Ethernet with coalescing. The implementation is developed in ns-3.30.1.  Installation procedure is the following:
 
 - copy folder point-to-point coalescing to ns3 src folder
-- confugure ns3 and buld EEE net device using commands ./waf configure, and ./waf build
+- configure ns3 and build EEE net device using commands ./waf configure, and ./waf build
  
 Associated example file requires uses PPBP application which can be obtained from https://github.com/sharan-naribole/PPBP-ns3. In order to execute test:
 
